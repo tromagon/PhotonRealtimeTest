@@ -214,8 +214,6 @@ public class NetworkConnection : MonoBehaviour
     
     private class Callbacks : IMatchmakingCallbacks, IInRoomCallbacks
     {
-        private readonly RealtimeClient _client;
-        
         public void OnFriendListUpdate(List<FriendInfo> friendList)
         {
         }
